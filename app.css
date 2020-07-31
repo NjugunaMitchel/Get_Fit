@@ -6,7 +6,10 @@ body{
 }
 
 .header{
-    background-color: black;
+    background:url('https://i.insider.com/5ecd83994dca6847f2265f65?width=900&format=jpeg&auto=webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
     height: 60vh;
     border-radius: 3%;
     position: relative;
@@ -24,13 +27,15 @@ nav{
 }
 
 ul>li>a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
+    padding:5px;
     color:#c0c0c0;
+    
 }
 
 nav>ul>li{
     display:inline-block;
-    padding:10px;
 }
 nav>ul{
     position: absolute;
@@ -38,22 +43,6 @@ nav>ul{
 
 }
 
-.circle1{
-    position: absolute;
-    background-color:black;
-    border:15px solid #00ff00;
-    background: url('https://images.pexels.com/photos/136404/pexels-photo-136404.jpeg?cs=srgb&dl=healthy-woman-legs-dark-136404.jpg&fm=jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 280px;
-    width:280px;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
 
 .logo>h1{
     z-index: 10;
